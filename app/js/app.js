@@ -7,7 +7,8 @@ angular.module('template_ajs01', [
   'page.Games',
   'page.logIn',
   'Games.gameList',
-  'myApp.version'
+  'myApp.version',
+  'ngAnimate'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');

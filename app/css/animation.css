@@ -1,0 +1,74 @@
+
+.init-height{
+  transition: all linear 0.2s;
+  background-color: lightblue;
+  height: 100px;
+  overflow:hidden;
+  margin:10px;
+  border-radius:20px;
+}
+.init-height2{
+  transition: all linear 0.2s;
+  background-color: lightyellow;
+  height: 100px;
+  overflow:hidden;
+  margin:10px;
+  border-radius:20px;
+  padding:10px;
+  font-family:Arial;
+  font-weight:bold;
+}
+.ng-enter{
+  height: 0px;
+  width: 100%;
+  background-color: transparent;
+  top:-200px;
+  left: 200px;
+}
+.ng-leave{
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  top:-200px;
+  left: 200px;
+}
+.init-height.ng-hide{
+  height: 0px;
+  width: 100%;
+  top:-200px;
+  left: 200px;
+}
+.init-height.ng-show{
+  height: 100px;
+  width: 100%;
+  top:-200px;
+  left: 200px;
+}
+.view-frame.ng-enter {
+  animation: 1s fade-in;
+  z-index: 100;
+}
+
+.view-frame.ng-leave {
+  animation: 1s fade-out;
+  z-index: 99;
+}
+.view-frame.ng-enter {
+  animation: 1s fade-in;
+  z-index: 100;
+}
+
+.view-frame.ng-leave {
+  animation: 1s fade-out;
+  z-index: 99;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
