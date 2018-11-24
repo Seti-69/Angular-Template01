@@ -1,0 +1,10 @@
+<p>These are the games bitches.</p>
+<div ng-controller="gameListCtrl">
+    <ul>
+        <li class="init-height"ng-repeat="x in jsonData " ng-enter>
+            <img src="{{x.image}}" width="75px">
+          {{ x.Name + ', ' + x.Country }}
+        </li>
+    </ul>
+      
+</div>

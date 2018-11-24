@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.view2 module', function() {
+describe('page.Games module', function() {
 
-  beforeEach(module('myApp.view2'));
+  beforeEach(module('page.Games'));
 
   describe('view2 controller', function(){
 
@@ -13,4 +13,5 @@ describe('myApp.view2 module', function() {
     }));
 
   });
+  
 });
