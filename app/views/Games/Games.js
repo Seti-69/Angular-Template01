@@ -4,7 +4,7 @@ angular.module('page.Games', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Games', {
-    templateUrl: 'Games/Games.html',
+    templateUrl: 'views/Games/Games.html',
     controller: 'View2Ctrl'
   });
   

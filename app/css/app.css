@@ -3,7 +3,7 @@
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
+  margin-bottom: 0.2em;
   padding: 0 0 0.5em;
 }
 
@@ -17,6 +17,7 @@
 
 .menu > li {
   display: inline;
+  text-decoration:none;
 }
 
 .menu > li + li:before {
