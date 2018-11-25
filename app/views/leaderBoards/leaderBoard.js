@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('page.logIn', ['ngRoute'])
+angular.module('page.leaderBoard', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Leader-Boards', {

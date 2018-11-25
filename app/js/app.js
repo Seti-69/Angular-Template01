@@ -6,6 +6,7 @@ angular.module('template_ajs01', [
   'page.Home',
   'page.Games',
   'page.logIn',
+  'page.leaderBoard',
   'Games.gameList',
   'myApp.version',
   'ngAnimate'
