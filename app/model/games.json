@@ -4,91 +4,91 @@
       "Name": "Alfreds Futterkiste",
       "City": "Berlin",
       "Country": "Germany",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Ana Trujillo Emparedados y helados",
       "City": "México D.F.",
       "Country": "Mexico",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Antonio Moreno Taquería",
       "City": "México D.F.",
       "Country": "Mexico",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Around the Horn",
       "City": "London",
       "Country": "UK",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "B's Beverages",
       "City": "London",
       "Country": "UK",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Berglunds snabbköp",
       "City": "Luleå",
       "Country": "Sweden",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Blauer See Delikatessen",
       "City": "Mannheim",
       "Country": "Germany",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Blondel père et fils",
       "City": "Strasbourg",
       "Country": "France",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Bólido Comidas preparadas",
       "City": "Madrid",
       "Country": "Spain",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Bon app'",
       "City": "Marseille",
       "Country": "France",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Bottom-Dollar Marketse",
       "City": "Tsawassen",
       "Country": "Canada",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Cactus Comidas para llevar",
       "City": "Buenos Aires",
       "Country": "Argentina",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Centro comercial Moctezuma",
       "City": "México D.F.",
       "Country": "Mexico",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Chop-suey Chinese",
       "City": "Bern",
       "Country": "Switzerland",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     },
     {
       "Name": "Comércio Mineiro",
       "City": "São Paulo",
       "Country": "Brazil",
-      "image": "assets/cia.png"
+      "image": "assets/img/cia.png"
     }
   ]
 }

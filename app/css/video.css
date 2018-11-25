@@ -1,0 +1,56 @@
+
+        /* CSS Styles for the video Jumbotron */
+        .jumbotron {
+            padding: 0;
+            margin-bottom: 0;
+        }
+        .videoControls {
+            width: 100%;
+            font-size: 30px;
+        }
+        .videoControls span, .videoControls div {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .btnBox {
+            float: right;
+        /*    border: 1px solid red; */
+        }
+        .btnDownload {
+            float: right;
+            margin-top: 10px;
+            color: #000;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .btnDownload:hover{
+            color: #aaa;
+            text-decoration: none;
+            border: 1px solid grey;
+        }
+        .btnMute {
+            float: right;
+            padding-left: 20px;
+            margin-right: 20px;
+            color: #000;
+        }
+        .btnFullscreen {
+            float: right;
+            padding-left: 20px;
+            margin-right: 20px;
+            color: #000;
+        }  
+        .btnPlay {
+            padding-right: 20px;
+            margin-left: 20px;
+            color: #000;
+        }
+        .glyphicon:hover {
+            color: #aaa;
+        }
+        .videoTime {
+            color: #000;
+        }
+        /* END CSS Styles for the video Jumbotron */
+        

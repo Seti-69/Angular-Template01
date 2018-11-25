@@ -2,7 +2,7 @@
 
 .menu {
   list-style: none;
-  border-bottom: 0.1em solid black;
+	border-bottom:0.1em solid rgb(33, 122, 173);
   margin-bottom: 0.2em;
   padding: 0 0 0.5em;
 }
@@ -25,6 +25,6 @@
   padding-right: 0.3em;
 }
 .footer{
-	border-top:0.1em solid black;
+	border-top:0.1em solid rgb(33, 122, 173);
 	padding-top:0.5em;
 }
