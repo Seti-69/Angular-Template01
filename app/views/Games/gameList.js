@@ -6,4 +6,5 @@ angular.module('Games.gameList', ['ngAnimate'])
     .then(function(response) {
         $scope.jsonData = response.data.records;
     });
+    
 });

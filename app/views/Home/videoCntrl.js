@@ -1,13 +1,17 @@
-// JavaScript Document   
+'use strict';
 
-$( document ).ready(function() {
+angular.module('VideoCntrl', [])
+.controller('VideoController', function($scope, $http){
+    $http.get("model/data.json")
+    .then(function(response) {
+     $scope.jsonData = response.data.pageTextData
+    });
     var videoPlayer = $('#videoPlayer');
     //alert(videoPlayer);
     $('.btnPlay').click(function() {
         if(videoPlayer[0].paused) {
             videoPlayer[0].play();
             $('.glyphicon-play').attr('class', 'glyphicon glyphicon-pause');
-            alert("Play button clicked");
         }
         else {
             videoPlayer[0].pause();
@@ -25,6 +29,7 @@ $( document ).ready(function() {
         if (videoPlayer[0].muted == false) {
             videoPlayer[0].muted = true;
             $('.glyphicon-volume-up').attr('class', 'glyphicon glyphicon-volume-off');
+           // alert("Mute button clicked");
         } else {
             videoPlayer[0].muted = false;
             $('.glyphicon-volume-off').attr('class', 'glyphicon glyphicon-volume-up');
@@ -36,3 +41,4 @@ $( document ).ready(function() {
         return false;
     });
 });
+

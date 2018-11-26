@@ -1,0 +1,94 @@
+{
+    "pageTextData": [
+		{
+            "title": " ",
+            "subTitle": "Virtual Studio",		
+            "description": "This image illustrates the set up of the virtual studio in 3ds Max 2017. Click to enlarge.",
+            "imageUrl": "assets/images/image_1.jpg"
+		},
+		{
+            "title": " ",
+            "subTitle": "Blocking in",		
+            "description": "Here we have the initial design of the Dodge WC-53 body in 3ds Max 2017. Click to enlarge.",
+            "imageUrl": "assets/images/image_2.jpg"
+		},
+		{
+            "title": " ",
+            "subTitle": "Detail, Smoothing and Texturing.",		
+            "description": "More detail is added to the body and chassis. The mesh is smoothed with NURMS. Click to enlarge.",
+            "imageUrl": "assets/images/image_3.jpg"
+		},
+        {
+            "title": " ",
+            "subTitle": "Scanline Render",		
+            "description": "This image shows the final scanline render of the Dodge WC-53. The model is texture mapped and scanline materials used. Click to enlarge.",
+            "imageUrl": "assets/images/image_4.jpg"
+        },
+		{
+            "title": " ",
+            "subTitle": "Bam Bam Bingo",		
+            "description": "Join the fun with this new exciting featured bingo game. Play with the whole community and invite your friends to join in the fun",
+            "videoUrl": "assets/video/BamBam_promo_08.mp4"
+		},
+		{
+            "title": " ",
+            "subTitle": "X3D Model",		
+            "description": "This is the online X3D model (X3D in the HTML DOM, i.e. X3DOM) of a 1942 Dodge WC-53 CarryAll. Use your mouse to navigate around the model.",
+            "x3dUrl": "assets/x3d/Dodge-WC53.x3d"
+		},
+		{
+            "title": " ",
+            "subTitle": "Render scene set up",		
+            "description": "First a photorealistic lighting studio using Mental Ray Free Lights and Autodesk materials is set up.",
+            "imageUrl": "assets/images/image_5.jpg"
+		},
+        {
+            "title": " ",
+            "subTitle": "Lighting",		
+            "description": "Lights are added to the photorealistic lighting studio using the Mental Ray daylight system — MR Sun and MR Daylight.",
+            "imageUrl": "assets/images/image_6.jpg"
+        },
+        {
+            "title": " ",
+            "subTitle": "Materials",		
+            "description": "Various Mental Ray Arch and Design Materials are created for use on the different components of the Model.",
+            "imageUrl": "assets/images/image_7.jpg"
+		},
+		{
+            "title": " ",
+            "subTitle": "Photorealistic Image",		
+            "description": "This image illustrates the final photorealistic rendering of the Dodge WC-53 exploiting the Mental Ray photorealistic illumination and a set of materials designed using Mental Ray's Arch and Design Materials in the 3ds Max Slate Editor",
+            "imageUrl": "assets/images/image_8.jpg"
+		},
+		{
+            "title": " ",
+            "subTitle": "Modelling",		
+            "description": "The model of car I chose is a 1942 Dodge WC-53 because of its simplistic structure and interesting shapes. A virtual studio was set up using front, side and top elevations to work from. The main body and chassis were modelled in half with a symmetry modifier applied to complete the shape. Once the main components and proportions were blocked in I added more mesh iterations to smooth off the shape, keeping the mesh and edge loops tidy. Extra geometry details were added and all model UV's flattened out."},
+		{
+            "title": " ",
+            "subTitle": " Cameras and Lights",		
+            "description": "For the scanline renderer a simple light set up was applied. Using standard direct lights in 3D Studio Max 2017, a main ‘sun’, a low lit ‘sky’ and ‘fill’  lights are added. This provided a simple daytime lighting effect. The main direct light (sun) has ray traced shadows turned on. The camera is a ‘Physical’ camera with a target centred to the middle of the model. This set up adequately shows the model off in a pleasing and natural way."},
+		{
+            "title": " ",
+            "subTitle": "Animation",		
+            "description": "All components of the vehicle are constrained to a dummy object. This acted as a master positioner for the model. All movable wheels are constrained to a dummy object which in turn is constrained to the master dummy. Each wheel is wired to the main dummy. The local  X movement of the master dummy rotates the wheels accordingly. The front wheels are wired to the steering wheel to turn them for cornering. The body is wired similarly so it banks during cornering. For simplicity the master dummy is constrained to a path. As the vehicle moves along the path the wheels spin automatically. Animating the steering wheel on the corners simulates steering and suspension."},
+		{
+            "title": " ",
+            "subTitle": "Exporting to VRML97 and Rendering in X3D",		
+            "description": "An export scene is created in 3D Studio Max 2017 containing the model, camera, lights and a ‘Nav info’ helper object used by the X3D renderer. The whole scene is exported as a VRML97 file and converted into an X3D file so the X3D renderer can read the scene data. The materials all use the same diffuse colour map. Specular is added to all shiny surfaces which is shown in the X3D renderer, but the bump map doesn’t seem to render in the X3D renderer."},
+		{
+            "title": " ",
+            "subTitle": "Photorealistic Rendering",		
+            "description": "For the ‘Mental Ray’ renderer, a daylight system is set up automatically creating a sun and a sky light for the scene. An additional a standard skylight is added for ambient occlusion, a backplate image and a sphere version of the backplate image are added to the environment. The sphere background map used in reflections helps blend the foreground model into the background. This map is used in the skylight to further blend the model into the backplate. Shadow from the model is added using a shadow matte material. The materials on the model are all Arch and Design materials which in conjunction with the daylight and sky system produce very natural looking surfaces and shadowing."},
+		{
+            "section_1": "3DMR Part 1 — Modelling, Animation and Scan Line Rendering with X3DOM",
+            "section_2": "3DMR Part 2 — Photorealistic Rendering with Mental Ray",		
+            "section_3": "3DMR Part 3 — 3D Modelling and Rendering Description"
+		},
+        {
+            "name": "Candidate: Stephen Luke",
+            "number": "Number: 178492",		
+            "statement": "I declare that this work is solely my own work, and that I have not robbed it up from some other source unless explicitly stated in this assignment submission in Part 3."
+		}
+	]
+}

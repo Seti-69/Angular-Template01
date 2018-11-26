@@ -1,47 +1,37 @@
 
-.init-height{
+.gameSlots{
   transition: all linear 0.2s;
   background-color: lightblue;
-  height: 100px;
+  height: 200px;
   overflow:hidden;
   margin:10px;
   border-radius:20px;
 }
-.init-height2{
-  transition: all linear 0.2s;
-  background-color: lightyellow;
-  height: 100px;
-  overflow:hidden;
-  margin:10px;
-  border-radius:20px;
-  padding:10px;
-  font-family:Arial;
-  font-weight:bold;
-}
+
 .ng-enter{
   height: 0px;
   width: 100%;
   background-color: transparent;
-  top:-200px;
+  top:0px;
   left: 200px;
 }
 .ng-leave{
-  height: 100px;
+  height: 200px;
   width: 100%;
   background-color: transparent;
-  top:-200px;
+  top:0px;
   left: 200px;
 }
-.init-height.ng-hide{
+.gameSlots.ng-hide{
   height: 0px;
   width: 100%;
-  top:-200px;
+  top:0px;
   left: 200px;
 }
-.init-height.ng-show{
-  height: 100px;
+.gameSlots.ng-show{
+  height: 200px;
   width: 100%;
-  top:-200px;
+  top:0px;
   left: 200px;
 }
 .view-frame.ng-enter {

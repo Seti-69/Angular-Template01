@@ -3,6 +3,7 @@
         .jumbotron {
             padding: 0;
             margin-bottom: 0;
+            background-color:black
         }
         .videoControls {
             width: 100%;
@@ -51,6 +52,8 @@
         }
         .videoTime {
             color: #000;
+            font-size: 22px;
+            padding-top:-20px;
         }
         /* END CSS Styles for the video Jumbotron */
         

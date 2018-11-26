@@ -1,6 +1,6 @@
 <!--Games page content-->
 <div ng-controller="gameListCtrl">
-    <div class="init-height"ng-repeat="x in jsonData " ng-enter>
+    <div class="gameSlots"ng-repeat="x in jsonData " ng-enter>
             <img src="{{x.image}}" width="85px">
           {{ x.Name + ', ' + x.Country }}
         

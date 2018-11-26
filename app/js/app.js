@@ -3,6 +3,8 @@
 // Declare app level module which depends on views, and core components
 angular.module('template_ajs01', [
   'ngRoute',
+  'txtData',
+  'VideoCntrl',
   'page.Home',
   'page.Games',
   'page.logIn',
