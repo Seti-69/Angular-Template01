@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "Template using AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "repository": "https://github.com/Seti-69/Angular-Template01",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.7.5",
