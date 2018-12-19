@@ -3,7 +3,7 @@
 .menu {
   list-style: none;
 /*	border-bottom:0.1em solid rgb(130, 130, 130);*/
-  margin-bottom: 0.2em;
+  margin-top: 1em;
   padding: 0 0 0.5em;
   float:right;
 }
@@ -19,6 +19,12 @@
 .menu > li {
   display: inline;
   text-decoration:none;
+  color:red;
+}
+.nav-item{
+  display: inline;
+  text-decoration:none;
+  color:#b81b1b;
 }
 .nav-item:hover {
   display: inline;
@@ -53,7 +59,7 @@
   border:1px solid;
   border-color:  rgb(180,180,180);
   border-radius: 5px;
-  height:30px;
+  height:55px;
   width:100%;
   border-top:2px solid #ffffff;
   border-bottom:2px solid #999999;
@@ -72,3 +78,23 @@
   height:100px;
   opacity:0;
 }
+#logo1{
+	position:absolute;
+	z-index:11;
+	margin-left:0px;
+	margin-top:-5px;
+	}
+#logo2{
+	position:absolute;
+	z-index:10;
+	margin-left:160px;
+	margin-top:34px;
+	}
+#logo3{
+	position:absolute;
+	z-index:9;
+	margin-left:145px;
+	margin-top:30px;
+	}
+.textBox h2{
+  color:#b81b1b;}

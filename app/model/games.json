@@ -1,58 +1,58 @@
 {
   "records": [
     {
-      "Name": "Alfreds Futterkiste",
+      "Name": "4 Dragons",
       "City": "Berlin",
       "Country": "Germany",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/4Dragons_.jpg"
     },
     {
-      "Name": "Ana Trujillo Emparedados y helados",
+      "Name": "City Slots",
       "City": "México D.F.",
       "Country": "Mexico",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/bg.jpg"
     },
     {
-      "Name": "Antonio Moreno Taquería",
+      "Name": "Havana",
       "City": "México D.F.",
       "Country": "Mexico",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/havana.png"
     },
     {
-      "Name": "Around the Horn",
+      "Name": "Triassic World",
       "City": "London",
       "Country": "UK",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/TW.jpg"
     },
     {
-      "Name": "B's Beverages",
+      "Name": "Ahoy Slots",
       "City": "London",
       "Country": "UK",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/ahoy.jpg"
     },
     {
-      "Name": "Berglunds snabbköp",
+      "Name": "Dragons Slots",
       "City": "Luleå",
       "Country": "Sweden",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/dragons.jpg"
     },
     {
-      "Name": "Blauer See Delikatessen",
+      "Name": "Murder Express Slots",
       "City": "Mannheim",
       "Country": "Germany",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/murder.jpg"
     },
     {
-      "Name": "Blondel père et fils",
+      "Name": "Bam Bam Bingo",
       "City": "Strasbourg",
       "Country": "France",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/best2toGo.png"
     },
     {
-      "Name": "Bólido Comidas preparadas",
+      "Name": "Pharoahs and Pyramids",
       "City": "Madrid",
       "Country": "Spain",
-      "image": "assets/img/cia.png"
+      "image": "assets/img/pharaohs.jpg"
     },
     {
       "Name": "Bon app'",
