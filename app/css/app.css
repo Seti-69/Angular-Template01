@@ -1,30 +1,21 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-/*	border-bottom:0.1em solid rgb(130, 130, 130);*/
-  margin-top: 1em;
-  padding: 0 0 0.5em;
-  float:right;
+.navbar-nav{ 
+	margin-top:-10px;
+	background-color:none;
+	overflow:hidden;
 }
-
-.menu:before {
-  content: "";
-}
-
-.menu:after {
-  content: "";
-}
-
-.menu > li {
-  display: inline;
-  text-decoration:none;
-  color:red;
-}
+.navbar-toggler{
+	float:right;
+	border:0px solid;
+	z-index:20;
+	left:90%;
+	}
 .nav-item{
   display: inline;
   text-decoration:none;
   color:#b81b1b;
+  float:right;
 }
 .nav-item:hover {
   display: inline;
@@ -37,9 +28,11 @@
   color:#ffffff;
 }
 
-.menu > li + li:before {
-  content: "";
-  padding-right: 0.3em;
+.navbar-nav > li:before {
+  content: "|";
+  padding: 0.3em;
+  color:white;
+  float:right;
 }
 .footer{
 	border-top:0em solid rgb(130, 130, 130);
@@ -47,28 +40,38 @@
 }
 .row{
   border-radius:10px;
-  border:1px solid rgb(130, 130, 130);
-  padding:10px;
+  border:0px solid rgb(130, 130, 130);
+  padding:0px;
   margin-top:3px;
   margin-bottom:3px;
 }
 .textBox{
   text-align:right;
 }
-.navbar-header {
-  border:1px solid;
+.navbar-collapse{
+	z-index:2;
+	background-color:rgb(220,220,220);
+  border-radius:10px;
+  margin:0px;
+}
+.navbar-header{
+  padding:0px;
+  margin:0px;
   border-color:  rgb(180,180,180);
   border-radius: 5px;
   height:55px;
   width:100%;
   border-top:2px solid #ffffff;
   border-bottom:2px solid #999999;
-  background-color:rgb(220,220,220)
+  background-color:rgb(220,220,220);
+  min-height: 55px;
 }
 .navbar-brand{
   margin-top:-16px;
   margin-left:-31px;
   opacity:1;
+  float:left;
+  position:absolute;
 }
 .navbar-brand :hover{
   opacity:0.8;
@@ -78,6 +81,7 @@
   height:100px;
   opacity:0;
 }
+
 #logo1{
 	position:absolute;
 	z-index:11;
@@ -97,4 +101,22 @@
 	margin-top:30px;
 	}
 .textBox h2{
-  color:#b81b1b;}
+  color:#ffffff;
+  font-weight:bold;}
+.textBox p{
+  color:#ffffff;
+  font-weight:normal;}
+ .header{
+	color:#ffffff;
+  font-weight:bold;
+ }
+.row{background-color:#b81b1b}
+.logo{float:left;padding-left:10px;}
+.img-responsive{
+	z-index:2;
+	border:1px solid;
+	border-radius:10px;}
+.view{
+		position:relative;
+		padding-top:55px;
+	}

@@ -1,9 +1,23 @@
 <!--Games page content-->
-<div ng-controller="gameListCtrl">
-    <div class="gameSlots"ng-repeat="x in jsonData " ng-enter>
-            <img src="{{x.image}}" width="385px">
-          {{ x.Name + ', ' + x.Country }}
-        
-    </div>
-      
+<div class="container-fluid">
+	
+	<div ng-controller="gameListCtrl">
+			
+		<div class="gameSlots"ng-repeat="x in jsonData " ng-enter>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-6">
+						<img src="{{x.image}}" class="img-responsive">
+					</div>
+					<div class="col-sm-6">
+						<div class="textbox">
+							<h2 class="header">{{x.Name}}</h2>
+							<p>{{x.Description}}</p>
+						</div>	
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
 </div>

@@ -1,8 +1,8 @@
 
 .gameSlots{
   transition: all linear 0.2s;
-  background-color: lightblue;
-  height: 200px;
+  background-color: #b81b1b;
+  color:#ffffff;
   overflow:hidden;
   margin:10px;
   border-radius:20px;
