@@ -1,7 +1,25 @@
-<p>Log in to your profile.</p>
-<p>
-  {{ 'User Name: '+Nav }}
-</p>
-<p>
-  {{ 'Password: '+Nav }}
-</p>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<h2 class="header">Log In</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<div class="col-sm-6">
+				<div class="textbox">
+					<p class="header">Log into your account to see your stats and to save your best scores and trophies.</p>
+				</div>	
+			</div>
+			<div class="col-sm-6">
+				<div class="textbox">
+					<label for="UserName">UserName</label>
+					<input type="text" ng-model="cont1" value="UserName"></br>
+					<label for="Password">Password</label>
+					<input type="text" ng-model="cont3"  value="Password"><br>
+				</div>	
+				 Input: {{cont1 + " " + cont3}}
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,9 +1,15 @@
 <!--Games page content-->
+
 <div class="container-fluid">
-	
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<h2 class="header">Games</h2>
+		</div>
+	</div>
 	<div ng-controller="gameListCtrl">
 			
 		<div class="gameSlots"ng-repeat="x in jsonData " ng-enter>
+			<a href="#!/GameTemplate">
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="col-sm-6">
@@ -12,12 +18,13 @@
 					<div class="col-sm-6">
 						<div class="textbox">
 							<h2 class="header">{{x.Name}}</h2>
-							<p>{{x.Description}}</p>
+							<p class="copy">{{x.Description}}</p>
 						</div>	
 					</div>
 				</div>
 			
 			</div>
+			</a>
 		</div>
 	</div>
 </div>

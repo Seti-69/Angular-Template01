@@ -6,10 +6,18 @@
 	overflow:hidden;
 }
 .navbar-toggler{
+	text-decoration:none;
+	border:0px solid;
+	z-index:20;
+	left:90%;
+	text-decoration:none;
+	}
+.navbar-toggler-icon{
 	float:right;
 	border:0px solid;
 	z-index:20;
 	left:90%;
+	text-decoration:none;
 	}
 .nav-item{
   display: inline;
@@ -37,6 +45,7 @@
 .footer{
 	border-top:0em solid rgb(130, 130, 130);
 	padding-top:0.5em;
+	color:#b81b1b;
 }
 .row{
   border-radius:10px;
@@ -50,9 +59,9 @@
 }
 .navbar-collapse{
 	z-index:2;
-	background-color:rgb(220,220,220);
+	background-color:#fee08f;
   border-radius:10px;
-  margin:0px;
+  margin-top:0px;
 }
 .navbar-header{
   padding:0px;
@@ -63,7 +72,7 @@
   width:100%;
   border-top:2px solid #ffffff;
   border-bottom:2px solid #999999;
-  background-color:rgb(220,220,220);
+  background-color:#ffd461;
   min-height: 55px;
 }
 .navbar-brand{
@@ -100,23 +109,29 @@
 	margin-left:145px;
 	margin-top:30px;
 	}
-.textBox h2{
+.textBox label{
   color:#ffffff;
   font-weight:bold;}
-.textBox p{
+.textBox {
   color:#ffffff;
   font-weight:normal;}
  .header{
 	color:#ffffff;
   font-weight:bold;
  }
+ .copy{
+	color:#ffffff;
+  font-weight:normal;
+ }
 .row{background-color:#b81b1b}
 .logo{float:left;padding-left:10px;}
 .img-responsive{
 	z-index:2;
-	border:1px solid;
+	border:2px solid;
 	border-radius:10px;}
 .view{
 		position:relative;
 		padding-top:55px;
 	}
+a{ color:#ffffff;
+  font-weight:normal;}

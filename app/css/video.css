@@ -34,24 +34,24 @@
             float: right;
             padding-left: 20px;
             margin-right: 20px;
-            color: #000;
+			color:#b81b1b;
         }
         .btnFullscreen {
             float: right;
             padding-left: 20px;
             margin-right: 20px;
-            color: #000;
+			color:#b81b1b;
         }  
         .btnPlay {
             padding-right: 20px;
             margin-left: 20px;
-            color: #000;
+			color:#b81b1b;
         }
         .glyphicon:hover {
             color: #aaa;
         }
         .videoTime {
-            color: #000;
+			color:#b81b1b;
             font-size: 22px;
             padding-top:-20px;
         }

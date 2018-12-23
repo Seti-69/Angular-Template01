@@ -8,8 +8,10 @@ angular.module('template_ajs01', [
   'page.Home',
   'page.Games',
   'page.logIn',
+  'page.GameTemplate',
   'page.leaderBoard',
   'Games.gameList',
+  'leaderBoards.leaderBoardList',
   'myApp.version',
   'ngAnimate'
 ]).

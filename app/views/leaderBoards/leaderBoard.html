@@ -1,4 +1,41 @@
-<h1>Leader Boards.</h1>
-<p>
-  7x7= {{ 7*7 }}
-</p>
+<!-- Leader Board content -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<h2 class="header">Leader Board</h2>
+		</div>
+	</div>
+	<div ng-controller="rankListCtrl">
+			
+		<div class="gameSlots"ng-repeat="x in jsonData " ng-enter>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-3">
+						<img src="{{x.image}}" class="img-responsive">
+					</div>
+					<div class="col-sm-3">
+						<div class="textbox">
+							<h2 class="header">{{x.Name}}</h2>
+						</div>	
+					</div>
+					<div class="col-sm-2">
+						<div class="textbox">
+							<h3 class="">{{x.HighScore}}</h3>
+						</div>	
+					</div>
+					<div class="col-sm-2">
+						<div class="textbox">
+							<h4 class="">{{x.Game}}</h4>
+						</div>	
+					</div>
+					<div class="col-sm-2">
+						<div class="textbox">
+							<h4 class="">{{x.Trophy}}</h4>
+						</div>	
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
