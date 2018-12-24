@@ -5,12 +5,12 @@ angular.module('page.Games', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Games', {
     templateUrl: 'views/Games/Games.html',
-    controller: 'View2Ctrl'
+    controller: 'storeData'
   });
   
 }])
 
-.controller('View2Ctrl', [function() {
+.controller('storeData', [function() {
 	
 }]);
 

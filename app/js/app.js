@@ -13,7 +13,8 @@ angular.module('template_ajs01', [
   'Games.gameList',
   'leaderBoards.leaderBoardList',
   'myApp.version',
-  'ngAnimate'
+  'ngAnimate',
+  'shareData'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');

@@ -2,91 +2,91 @@
   "records": [
     {
       "Name": "4 Dragons",
-      "City": "Berlin",
+	  "URL":"#!/Game_dragon",
       "Description": "Enjoy these firery slots where ever you want to have a monster time of fun and winning.",
       "image": "assets/img/4Dragons_.jpg"
     },
     {
       "Name": "City Slots",
-      "City": "México D.F.",
+	  "URL":"#!/Game_city",
       "Description": "Have a night out on the town with these fun slick slots for the descerning clientelle.",
       "image": "assets/img/bg.jpg"
     },
     {
       "Name": "Havana",
-      "City": "México D.F.",
+	  "URL":"#!/Game_havana",
       "Description": "Flamboyant and fun, these slots will take you to partyville and back.",
       "image": "assets/img/havana.png"
     },
     {
       "Name": "Triassic World",
-      "City": "London",
+	  "URL":"#!/GameTemplate",
       "Description": "Watch out for the raptors but be ready for a volcano of winnings.",
       "image": "assets/img/TW.jpg"
     },
     {
       "Name": "Ahoy Slots",
-      "City": "London",
+	  "URL":"#!/GameTemplate",
       "Description": "All ship shape and sea worthy. Get on board with our super fun nautical theme.",
       "image": "assets/img/ahoy.jpg"
     },
     {
       "Name": "Dragons Slots",
-      "City": "Luleå",
+	  "URL":"#!/GameTemplate",
       "Description": "The dragon is with you when you play this exciting game from Melvin.",
       "image": "assets/img/dragons.jpg"
     },
     {
       "Name": "Murder Express Slots",
-      "City": "Mannheim",
+	  "URL":"#!/GameTemplate",
       "Description": "Intrique and mystery are just 2 of the reasons to give this game a spin. You'll be coming back for more.",
       "image": "assets/img/murder.jpg"
     },
     {
       "Name": "Bam Bam Bingo",
-      "City": "Strasbourg",
+	  "URL":"#!/GameTemplate",
       "Description": "Best bingo game around and still a winner. ",
       "image": "assets/img/best2toGo.png"
     },
     {
       "Name": "Pharoahs and Pyramids",
-      "City": "Madrid",
+	  "URL":"#!/GameTemplate",
       "Description": "Will the gods smile favourably on you with this game. After consulting the oracle the answer is YES!",
       "image": "assets/img/pharaohs.jpg"
     },
     {
       "Name": "Bon app'",
-      "City": "Marseille",
+	  "URL":"#!/GameTemplate",
       "Description": "France",
       "image": "assets/img/cia.png"
     },
     {
       "Name": "Bottom-Dollar Marketse",
-      "City": "Tsawassen",
+	  "URL":"#!/GameTemplate",
       "Description": "Canada",
       "image": "assets/img/cia.png"
     },
     {
       "Name": "Cactus Comidas para llevar",
-      "City": "Buenos Aires",
+	  "URL":"#!/GameTemplate",
       "Description": "Argentina",
       "image": "assets/img/cia.png"
     },
     {
       "Name": "Centro comercial Moctezuma",
-      "City": "México D.F.",
+	  "URL":"#!/GameTemplate",
       "Description": "Mexico",
       "image": "assets/img/cia.png"
     },
     {
       "Name": "Chop-suey Chinese",
-      "City": "Bern",
+	  "URL":"#!/GameTemplate",
       "Description": "Switzerland",
       "image": "assets/img/cia.png"
     },
     {
       "Name": "Comércio Mineiro",
-      "City": "São Paulo",
+	  "URL":"#!/GameTemplate",
       "Description": "Brazil",
       "image": "assets/img/cia.png"
     }
