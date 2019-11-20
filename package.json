@@ -6,7 +6,7 @@
   "repository": "https://github.com/Seti-69/Angular-Template01",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.7.5",
+    "angular": "^1.7.9",
     "angular-loader": "^1.7.5",
     "angular-route": "^1.7.5",
     "bootstrap": "^4.1.3",
